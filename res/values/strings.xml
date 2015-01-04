@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">滚动视图</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title">儿歌荟萃</string>
+    <string name="content2">《小螺号》\n小螺号,滴滴滴吹\n海鸥听了展翅飞\n小螺号,滴滴滴吹\n浪花听了笑微微\n小螺号,滴滴滴吹\n声声唤醒归罗\n小螺号,滴滴滴吹\n阿爸听了快快回罗\n茫茫的海滩,蓝蓝的海水\n吹起了螺号,心里美也</string>
+    <string name="content3">《小鸟》\n蓝天里有阳光,树林里有花香\n小鸟小鸟,你自由地飞翔\n在田野在草地,在湖边在山岗\n小鸟小鸟,迎着春天歌唱\n啦啦 啦啦啦啦啦啦啦啦啦啦啦啦啦\n啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦\n啦啦啦啦啦啦啦\n爱春天爱阳光,爱树木爱花香\n小鸟小鸟,我的好朋友\n让我们一起飞翔歌唱\n一起飞翔一起歌唱\n啦啦啦啦啦啦啦啦</string>
+    <string name="content4">《小螺号》\n小螺号,滴滴滴吹\n海鸥听了展翅飞\n小螺号,滴滴滴吹\n浪花听了笑微微\n小螺号,滴滴滴吹\n声声唤醒归罗\n小螺号,滴滴滴吹\n阿爸听了快快回罗\n茫茫的海滩,蓝蓝的海水\n吹起了螺号,心里美也</string>
+    <string name="zhuan">自动滚屏</string>
+    <string name="zhuan2">跳转</string>
+</resources>

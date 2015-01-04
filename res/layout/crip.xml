@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dip"
+    android:layout_height="240dip"
+  
+    android:orientation="vertical" >
+   
+<SeekBar android:id="@+id/progress_horizontal"
+        android:layout_width="180dip"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50"
+        android:paddingLeft="20dip"
+       />
+<RadioGroup 
+    android:id="@+id/group" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:paddingLeft="10dip"
+    android:orientation="vertical"> 
+    <RadioButton 
+    android:id="@+id/button1" 
+    android:layout_width="fill_parent" 
+    android:layout_height="50dip" 
+    android:textSize="18dip" 
+    android:text="开始" 
+    /> 
+
+<RadioButton 
+    android:id="@+id/button2" 
+    android:layout_width="fill_parent" 
+    android:layout_height="50dip" 
+    android:textSize="18dip" 
+    android:text="50%" 
+    /> 
+    <RadioButton 
+    android:id="@+id/button3" 
+    android:layout_width="fill_parent" 
+    android:layout_height="50dip" 
+    android:textSize="18dip" 
+    android:text="结尾" 
+    /> 
+</RadioGroup>
+<LinearLayout
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:orientation="horizontal"
+    android:gravity="center"
+     >
+    <Button
+        android:id="@+id/back"
+        android:text="返回"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"   />
+    <Button
+        android:id="@+id/trun_s"
+        android:text="跳转"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content" 
+        />
+</LinearLayout>
+</LinearLayout>

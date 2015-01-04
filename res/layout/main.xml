@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".MainActivity" >
+
+<ScrollView
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">"
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18px"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="4px"
+        android:text="@string/title"
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="@string/content2"
+        />
+    <ImageView 
+        android:layout_width="230px"
+        android:layout_height="210px"
+        android:src="@drawable/tupian"
+        />
+     <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="@string/content3"
+        />
+     <ImageView 
+        android:layout_width="230px"
+        android:layout_height="210px"
+        android:src="@drawable/tupian"
+        />
+     <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="@string/content4"
+        />
+    
+   </LinearLayout>
+ </ScrollView>
+</LinearLayout>
